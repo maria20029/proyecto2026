@@ -1,0 +1,67 @@
+.margen-superior-main {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.color-navbar {
+    background-color: #4C2B08 !important;
+    background-image: linear-gradient(90deg, #805e3a 0%, #805e3a 50%, #805e3a 100%);
+}
+
+.color-texto-marca {
+    color: #805e3a !important;
+    font-size: 18px;
+}
+
+.tarjeta-categoria-contenedor {
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjeta-categoria-cuerpo {
+    transition: opacity 150ms ease;
+}
+
+.tarjeta-categoria-cuerpo-activo {
+    opacity: 0.4;
+}
+
+.tarjeta-categoria-cuerpo-inactivo {
+    opacity: 1;
+}
+
+.tarjeta-categoria-placeholder-imagen {
+    height: 50px;
+    width: 50px;
+}
+
+.tarjeta-categoria-capa {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 8px;
+}
+
+.tarjeta-categoria-botones-capa {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.titulo-velvet {
+font-family:'Dancing Script', cursive;
+color: white ;
+font-size: 2.5rem ;
+}
+body {
+    background: linear-gradient(
+    to bottom,
+    #fcde9e
+
+);
+}
